@@ -1,0 +1,13 @@
+{
+  "model_name": "logistic_regression",
+  "variant": "lanc",
+  "best_params": {
+    "C": 6.0,
+    "l1_ratio": 0.0
+  },
+  "accuracy": 0.9081375415952405,
+  "precision": 0.9025742574257426,
+  "recall": 0.9158127385975487,
+  "f1": 0.9091453076692929,
+  "train_time_seconds": 155.2855565547943
+}

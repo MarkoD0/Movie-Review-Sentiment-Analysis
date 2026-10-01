@@ -1,0 +1,13 @@
+{
+  "model_name": "svm",
+  "variant": "lanc",
+  "best_params": {
+    "C": 0.7,
+    "loss": "squared_hinge"
+  },
+  "accuracy": 0.9086417263285268,
+  "precision": 0.9029895070283113,
+  "recall": 0.9164155113522202,
+  "f1": 0.9096529716792979,
+  "train_time_seconds": 91.02980828285217
+}

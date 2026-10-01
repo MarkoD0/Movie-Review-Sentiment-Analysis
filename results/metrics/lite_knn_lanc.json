@@ -1,0 +1,14 @@
+{
+  "model_name": "lite_knn",
+  "variant": "lanc",
+  "best_params": {
+    "metric": "cosine",
+    "n_neighbors": 120,
+    "weights": "distance"
+  },
+  "accuracy": 0.8220227891499445,
+  "precision": 0.816017316017316,
+  "recall": 0.8332328712075547,
+  "f1": 0.8245352420717765,
+  "train_time_seconds": 12.19094705581665
+}

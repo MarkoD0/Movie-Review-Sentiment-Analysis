@@ -1,0 +1,13 @@
+{
+  "model_name": "logistic_regression",
+  "variant": "stem",
+  "best_params": {
+    "C": 5.0,
+    "l1_ratio": 0.0
+  },
+  "accuracy": 0.9102551174750428,
+  "precision": 0.9045733518115224,
+  "recall": 0.9180229053646776,
+  "f1": 0.9112485041882729,
+  "train_time_seconds": 129.79144239425659
+}

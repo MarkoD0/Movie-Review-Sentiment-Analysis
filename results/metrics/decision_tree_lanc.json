@@ -1,0 +1,13 @@
+{
+  "model_name": "decision_tree",
+  "variant": "lanc",
+  "best_params": {
+    "max_depth": 12,
+    "min_samples_leaf": 3
+  },
+  "accuracy": 0.739235655944338,
+  "precision": 0.7032817548036048,
+  "recall": 0.8310227044404259,
+  "f1": 0.7618345920058943,
+  "train_time_seconds": 1180.2239677906036
+}

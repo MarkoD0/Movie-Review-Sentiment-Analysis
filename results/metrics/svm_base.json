@@ -1,0 +1,13 @@
+{
+  "model_name": "svm",
+  "variant": "base",
+  "best_params": {
+    "C": 0.4,
+    "loss": "squared_hinge"
+  },
+  "accuracy": 0.9106584652616718,
+  "precision": 0.9033721159534609,
+  "recall": 0.9204339963833634,
+  "f1": 0.9118232484076433,
+  "train_time_seconds": 95.58839559555054
+}

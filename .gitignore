@@ -1,0 +1,54 @@
+# --- Data ---
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/README.md
+
+# --- Heavy models ---
+models/knn_base.joblib
+models/knn_stem.joblib
+models/knn_lem.joblib
+models/knn_lanc.joblib
+models/random_forest_base.joblib
+models/random_forest_stem.joblib
+models/random_forest_lem.joblib
+models/random_forest_lanc.joblib
+
+# --- Virtual environment ---
+venv/
+.env
+.venv/
+env/
+.env.*
+*.env
+
+# --- Python cache ---
+src/__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- build ---
+build/
+dist/
+
+# --- Logs ---
+*.log
+
+# --- Ipython kernel spec ---
+.ipython/

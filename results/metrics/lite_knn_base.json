@@ -1,0 +1,14 @@
+{
+  "model_name": "lite_knn",
+  "variant": "base",
+  "best_params": {
+    "metric": "cosine",
+    "n_neighbors": 110,
+    "weights": "distance"
+  },
+  "accuracy": 0.8286780276293234,
+  "precision": 0.8175125920185975,
+  "recall": 0.8479003415712276,
+  "f1": 0.832429233652234,
+  "train_time_seconds": 18.12135410308838
+}

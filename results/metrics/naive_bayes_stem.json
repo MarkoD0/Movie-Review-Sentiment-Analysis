@@ -1,0 +1,12 @@
+{
+  "model_name": "naive_bayes",
+  "variant": "stem",
+  "best_params": {
+    "alpha": 0.125
+  },
+  "accuracy": 0.883029141877584,
+  "precision": 0.8759109710458932,
+  "recall": 0.8935101466747036,
+  "f1": 0.8846230356077183,
+  "train_time_seconds": 13.40144157409668
+}

@@ -1,0 +1,15 @@
+{
+  "model_name": "lite_random_forest",
+  "variant": "base",
+  "best_params": {
+    "max_depth": 35,
+    "max_features": "log2",
+    "min_samples_leaf": 5,
+    "n_estimators": 1000
+  },
+  "accuracy": 0.859735807199758,
+  "precision": 0.8197218259629101,
+  "recall": 0.9236487844082781,
+  "f1": 0.868587623996221,
+  "train_time_seconds": 52.74081063270569
+}

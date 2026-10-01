@@ -1,0 +1,14 @@
+{
+  "model_name": "knn",
+  "variant": "stem",
+  "best_params": {
+    "metric": "cosine",
+    "n_neighbors": 150,
+    "weights": "distance"
+  },
+  "accuracy": 0.8148633659372794,
+  "precision": 0.8174651303820497,
+  "recall": 0.812537673297167,
+  "f1": 0.814993954050786,
+  "train_time_seconds": 8007.563385248184
+}

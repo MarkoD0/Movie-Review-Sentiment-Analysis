@@ -1,0 +1,14 @@
+{
+  "model_name": "lite_knn",
+  "variant": "stem",
+  "best_params": {
+    "metric": "cosine",
+    "n_neighbors": 60,
+    "weights": "distance"
+  },
+  "accuracy": 0.825753756176263,
+  "precision": 0.8158662259381684,
+  "recall": 0.8430781595338558,
+  "f1": 0.8292490118577075,
+  "train_time_seconds": 10.880508184432983
+}

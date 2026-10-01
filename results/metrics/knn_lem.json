@@ -1,0 +1,14 @@
+{
+  "model_name": "knn",
+  "variant": "lem",
+  "best_params": {
+    "metric": "cosine",
+    "n_neighbors": 100,
+    "weights": "distance"
+  },
+  "accuracy": 0.80639306241807,
+  "precision": 0.801063620248178,
+  "recall": 0.8171589310829818,
+  "f1": 0.8090312313507062,
+  "train_time_seconds": 5817.928221464157
+}

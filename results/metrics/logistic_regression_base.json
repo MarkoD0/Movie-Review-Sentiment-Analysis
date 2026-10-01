@@ -1,0 +1,13 @@
+{
+  "model_name": "logistic_regression",
+  "variant": "base",
+  "best_params": {
+    "C": 6.0,
+    "l1_ratio": 0.0
+  },
+  "accuracy": 0.9109609761016436,
+  "precision": 0.9024773889107354,
+  "recall": 0.9222423146473779,
+  "f1": 0.9122528073139223,
+  "train_time_seconds": 161.81660890579224
+}

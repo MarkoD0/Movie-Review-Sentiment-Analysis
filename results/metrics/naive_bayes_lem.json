@@ -1,0 +1,12 @@
+{
+  "model_name": "naive_bayes",
+  "variant": "lem",
+  "best_params": {
+    "alpha": 0.225
+  },
+  "accuracy": 0.8793990117979228,
+  "precision": 0.8704683519498334,
+  "recall": 0.8925055254169179,
+  "f1": 0.8813492063492063,
+  "train_time_seconds": 10.78299593925476
+}

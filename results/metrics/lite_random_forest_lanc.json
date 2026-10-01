@@ -1,0 +1,15 @@
+{
+  "model_name": "lite_random_forest",
+  "variant": "lanc",
+  "best_params": {
+    "max_depth": 40,
+    "max_features": "log2",
+    "min_samples_leaf": 5,
+    "n_estimators": 1000
+  },
+  "accuracy": 0.859332459413129,
+  "precision": 0.8235187861271677,
+  "recall": 0.9160136628491059,
+  "f1": 0.8673071435365738,
+  "train_time_seconds": 62.92508006095886
+}
