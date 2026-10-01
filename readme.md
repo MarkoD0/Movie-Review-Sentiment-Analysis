@@ -10,7 +10,7 @@ A systematic comparison of six classical machine learning models for binary sent
 
 > 📄 **Full write-up:** this README is a summary. The complete theoretical background (how each model works, why each hyperparameter grid was chosen), per-model analyses, statistical checks and a discussion of limitations are in the thesis: [`bachelors_thesis.pdf`](bachelors_thesis.pdf)
 
-**Try it:** download `predict_review.exe` from [Releases](<RELEASES_URL>) (Windows), or run `python predict_review.py` after [setting up the environment](#-getting-started).
+**Try it:** download `predict_review.exe` from [Releases](https://github.com/MarkoD0/Movie-Review-Sentiment-Analysis/releases) (Windows), or run `python predict_review.py` after [setting up the environment](#-getting-started).
 
 ---
 
@@ -240,7 +240,7 @@ In the notebook names, the last digit is the preprocessing variant: `0` = baseli
 | `data/raw/IMDB_Dataset.csv` | third-party data | download from Kaggle, see `data/raw/README.md` |
 | `data/processed/` | regenerable | run notebooks 2 and 3, see `data/processed/README.md` |
 | Heavy Random Forest and KNN models (~200 MB - 6.4 GB each) | too large for GitHub | retrain with notebooks 7.1.x / 8.1.x, see `models/README.md` |
-| `dist/predict_review.exe` | executable file | `<RELEASES_URL>` (see [💻 GUI application](#-gui-application)) |
+| `dist/predict_review.exe` | executable file | [Releases](https://github.com/MarkoD0/Movie-Review-Sentiment-Analysis/releases) or see [💻 GUI application](#-gui-application) |
 
 Everything needed to inspect the results (notebooks with their outputs, all metrics, all confusion matrices) and to run the GUI is included.
 
@@ -251,8 +251,8 @@ Everything needed to inspect the results (notebooks with their outputs, all metr
 **Requirements:** Python 3.12 and git. (Developed and tested with Python 3.12.x; other 3.x versions may work but were not tested.)
 
 ```bash
-git clone <REPOSITORY_URL>
-cd movie-review-sentiment-analysis
+git clone https://github.com/MarkoD0/Movie-Review-Sentiment-Analysis
+cd Movie-Review-Sentiment-Analysis
 ```
 
 Create and activate a virtual environment.
@@ -317,7 +317,7 @@ Time and memory notes:
 
 ### Option A: download the executable (Windows)
 
-Download `predict_review.exe` from the **Releases** page: `<RELEASES_URL>`
+Download `predict_review.exe` from the [**Releases page**](https://github.com/MarkoD0/Movie-Review-Sentiment-Analysis/releases)
 
 ### Option B: run from source
 
@@ -350,7 +350,7 @@ pyinstaller --onefile --add-data "models;models" predict_review.py
 
 ## 🔬 Methodology in detail
 
-Only the essentials are summarised here; see the thesis ([bachelors_thesis.pdf`](bachelors_thesis.pdf)), Chapters 3 and 4, for the full explanation.
+Only the essentials are summarised here; see the thesis ([`bachelors_thesis.pdf`](bachelors_thesis.pdf)), Chapters 3 and 4, for the full explanation.
 
 ### Preprocessing (`src/preprocessing.py`)
 
